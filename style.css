@@ -1,0 +1,113 @@
+
+
+body{
+    background: #000033;
+    color: aliceblue;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 60vw;
+    min-width: 330px;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+input,button{
+    margin: 12px auto;
+    padding: 6px 12px;
+}
+
+button {
+    background-color: rgb(51, 143, 255);
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #000;
+    color: aliceblue;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#profileInfo{
+    /* margin-left: 550px; */
+    align-items: center;
+}
+
+
+
+.card {
+    width: 18rem;
+    background: #202124;
+    box-shadow: 1px 2px 3px #454545;
+    padding: 12px;
+    margin: 20px;
+}
+
+.card-img,
+img {
+    margin: 5px auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-subHeading {
+    font-size: 14px;
+    color: rgb(87, 87, 87);
+}
+
+#repoInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* 
+h1{
+    font-size: 6rem;
+}
+
+input{
+    padding: 10px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+
+
+#id{
+    display: flex;
+} */
